@@ -28,6 +28,9 @@ h3{
 p{
     font-size: 1rem;
 }
+input[type="button"]{
+    cursor: pointer;
+}
 button{
     cursor: pointer;
 }
@@ -236,7 +239,7 @@ header p{
     }
     .box-info p{
         width: 79%;
-       
+        color: #8f8f8f;
     }
     .box .btn-view{
         width: 21%;
