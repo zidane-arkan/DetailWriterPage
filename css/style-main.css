@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+/*Global CSS Start*/
+*,body {
+    margin: 0;
+    padding: 0;
+}
+a,ol,ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+a{
+    display: block;
+    color: #000;
+}
+body{
+    display: block;
+    font-family: 'Roboto',sans-serif;
+    max-width: 100%;
+}
+h2{
+    font-size: 2.35rem;
+    font-weight: bold;
+}
+h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+p{
+    font-size: 1rem;
+}
+button{
+    cursor: pointer;
+}
+/*Global CSS End*/
+
+/*Header CSS Start*/
+header{
+    display: block;
+    max-width: 100%;
+}
+header p{
+    font-size: 1.1rem;
+    padding-top: 3px;
+}
+.nav-tab p {
+    font-weight: bold;
+}
+
+.sec-top {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+}
+.sec-top > .navbar,.nav-content{
+    display: block;
+    max-width: 1440px;
+    margin-inline: auto auto;
+}
+.navbar > .nav-top{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin: 15px 15px;
+}
+.nav-box > .nav-list{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+.list-icon > a{
+    display: flex;
+}
+.list-search{
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: end;
+    right: 0;
+}
+
+.list-search > .fa-search{
+    position: absolute;
+    padding: 1rem;
+    margin: 2px 0px;
+    z-index: 1;
+    color: #000;
+}
+.list-search > input {
+    padding: 0.5rem;
+    border: transparent;
+    background: #e5e5e5;
+    border-radius: 20px;
+    width: 260px;
+}
+
+
+.nav-content-wrap{
+    display: block;
+    max-width: 100%;
+    background-color: #f8f8f8;
+}
+.nav-content{
+    display: block;
+    max-width: 1440px;
+    height: auto;
+    margin: auto auto;
+}
+.nav-content > .profile-wrap{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px 0;
+    gap: 2rem;
+}
+.profile-wrap > #profile-img{
+    display: block;
+    max-width: 300px;
+    max-height: 300px;
+    box-sizing: border-box;
+}
+#profile-img > img{
+    width: 100%;
+    border-radius: 50%;
+}
+.profile-box{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.profile-text p{
+    color: #8f8f8f;
+}
+.profile-box > .profile-rating{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.profile-rating #review{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+}
+.btn{
+    width: 50%;
+    padding: 5px;
+    border: 1px solid transparent;
+    background-color: #000000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.star-img{
+    max-width: 150px;
+    height: 36px;
+}
+
+
+.nav-tab{
+    display: flex;
+    max-width: 100%;
+    margin: auto auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.nav-tab > .tab-header {
+    width: 50%;
+    padding: 1.4rem;
+}
+.tab-header button{
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+    background-color: transparent;
+}
+.tab-header:nth-child(1){
+    border-bottom: 5px solid #000;
+}
+.tab-header:nth-child(2){
+    border-bottom: 5px solid #ddd;
+}
+/*Header CSS End*/
+/*Main CSS Start*/
+    main{
+        display: block;
+        max-width: 100%;
+    }
+    .article-main{
+        display: grid;
+        max-width: 1440px;
+        margin: 4rem auto;
+        grid-template-columns: 1fr 1fr;
+        align-items: baseline;
+        grid-gap: 2rem 2rem;
+        justify-content: center;
+    }
+    .article-main .sec{
+        padding: 3rem 3rem;
+        box-shadow: 0 15px 32px 0 rgb(0 0 0 / 10%);
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        gap: 2rem;
+    }
+    .box .h-article{
+        font-size: 1.6rem;
+    }
+    .box p {
+        font-size: 1rem;
+    }
+    .box .box-info{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: flex-end;
+    }
+    .box-info p{
+        width: 79%;
+       
+    }
+    .box .btn-view{
+        width: 21%;
+        padding: 8px;
+    }
+    .btn-view[value]{
+        font-size: 1rem;
+    }
+/*Main CSS End*/

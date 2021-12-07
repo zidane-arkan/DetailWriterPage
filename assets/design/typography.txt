@@ -1,0 +1,17 @@
+Font roboto
+h2 : 40px bold
+h3: 35px bold
+p:navbar : 28px
+a,p:main : 25px
+p: main : date : 18px, 9b9b9b
+button:navbar : 28px
+button:main : 25px
+
+.nav-tab{
+    display: flex;
+    max-width: 100%;
+    margin: auto auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
