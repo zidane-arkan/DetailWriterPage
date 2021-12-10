@@ -189,11 +189,11 @@ header p{
     border: none;
     background-color: transparent;
 }
-.tab-header:nth-child(1){
-    border-bottom: 5px solid #000;
-}
-.tab-header:nth-child(2){
+.tab-header{
     border-bottom: 5px solid #ddd;
+}
+.tab-black{
+    border-bottom: 5px solid #000;
 }
 /*Header CSS End*/
 /*Main CSS Start*/
@@ -218,6 +218,9 @@ header p{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    main .hidden{
+        display: none;
     }
     .box{
         display: flex;
